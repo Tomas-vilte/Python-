@@ -41,5 +41,3 @@ class Orden():
 
 dasdasd = 0
 adsada1 = 2
-def ad():
-    pass
