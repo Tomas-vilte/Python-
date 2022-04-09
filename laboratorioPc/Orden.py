@@ -7,6 +7,7 @@ class Orden():
         self._idOrden = Orden.contadorOrdenes
 
     @property
+    
     def computadoras(self):
         return self._computadoras
 
@@ -38,6 +39,3 @@ class Orden():
     
     def agregarComputadoras(self, computadora):
         self.computadoras.append(computadora)
-
-dasdasd = 0
-adsada1 = 2
