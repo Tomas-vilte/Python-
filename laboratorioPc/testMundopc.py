@@ -26,5 +26,3 @@ Orden1 = Orden(computadoras1)
 print(Orden1)
 Orden1.agregarComputadoras(Computadora3)
 print(Orden1)
-
-adad = 2
