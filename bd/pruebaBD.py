@@ -23,17 +23,37 @@ finally:
 """
 
 #Insertando nuevo registro en la base de datos
-try:
+"""try:
     with conexion:
          with conexion.cursor() as cursor:
              consulta = " INSERT INTO persona (nombre, apellido, email, lenguaje_preferido) VALUES (%s, %s, %s, %s) "
-             valores = ('Michu', 'Vilte', 'michuvilte@gmail.com', 'Solidity')
-             cursor.execute(consulta, valores)
+             valores = (
+                 ('Marcos', 'Cantu', 'Marcoscantu@gmail.com', 'R'),
+                 ('Angel', 'Quitana', 'Angelquintana@gmail.com', 'Ruby'),
+                 ('Maria', 'Gonzalez', 'Mariagonzalez@gmail.com', 'C++')
+                 )
+             cursor.executemany(consulta, valores)
              registrosInsertados = cursor.rowcount
              print(f'Registros insertados: {registrosInsertados}')
+except Exception as e:
+    print(f'Ocurrio un error {e}')  
+finally:
+    cursor.close()
+
+"""
+#Actualizando registro de la base de datos (UPDATE)
+"""try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            consulta = " UPDATE persona SET nombre =%s, apellido=%s, email=%s, lenguaje_preferido=%s WHERE id_persona=%s   "
+            valores = (
+                ('Juan carlos', 'Juarez', 'Juanjuarez@gmail.com', '.NET', 16))
+            cursor.execute(consulta, valores)
+            registrosModificados = cursor.rowcount
+            print(f'RegistrosActualizados: {registrosModificados}')
 except Exception as e:
     print(f'Ocurrio un error {e}')
 finally:
     cursor.close()
 
-
+"""
