@@ -22,7 +22,7 @@ finally:
 
 """
 
-#Insertando nuevo registro en la base de datos
+#Insertando varios registros nuevos en la base de datos (INSERT) usando el metodo executemany()
 """try:
     with conexion:
          with conexion.cursor() as cursor:
@@ -41,13 +41,12 @@ finally:
     cursor.close()
 
 """
-#Actualizando registro de la base de datos (UPDATE)
+#Actualizando registro de la base de datos (UPDATE) usando el metodo execute()
 """try:
     with conexion:
         with conexion.cursor() as cursor:
             consulta = " UPDATE persona SET nombre =%s, apellido=%s, email=%s, lenguaje_preferido=%s WHERE id_persona=%s   "
-            valores = (
-                ('Juan carlos', 'Juarez', 'Juanjuarez@gmail.com', '.NET', 16))
+            valores = ('Juan carlos', 'Juarez', 'Juanjuarez@gmail.com', '.NET', 16)
             cursor.execute(consulta, valores)
             registrosModificados = cursor.rowcount
             print(f'RegistrosActualizados: {registrosModificados}')
@@ -57,3 +56,23 @@ finally:
     cursor.close()
 
 """
+
+
+#Actualizando varios registros de la base de datos usando el metodo executemany()
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            consulta = " UPDATE persona SET nombre =%s, apellido=%s, email=%s, lenguaje_preferido=%s WHERE id_persona=%s   "
+            valores = (
+
+            ('Juan', 'Dominguez', 'Juandominguez@gmail.com', 'C#', 16),
+            ('Cesar', 'Melo', 'Juanmelo@gmail.com', 'nodeJS', 14)
+
+            )
+            cursor.executemany(consulta, valores)
+            registrosModificados = cursor.rowcount
+            print(f'RegistrosActualizados: {registrosModificados}')
+except Exception as e:
+    print(f'Ocurrio un error {e}')
+finally:
+    cursor.close()
