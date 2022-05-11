@@ -2,7 +2,7 @@ import psycopg2
 
 conexion = psycopg2.connect(user ='postgres', password ='admin', host ='localhost', port ='5432', database ='test_db')
 
-#Haciendo consulta sql y mostrando los registros en la terminal
+#Haciendo consulta "SELECT" y mostrando los registros en la terminal
 """try:
     with conexion:
         with conexion.cursor() as cursor:
@@ -22,6 +22,7 @@ finally:
 
 """
 
+#Insertando nuevo registro en la base de datos
 try:
     with conexion:
          with conexion.cursor() as cursor:
