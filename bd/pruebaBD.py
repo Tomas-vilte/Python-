@@ -59,7 +59,7 @@ finally:
 
 
 #Actualizando varios registros de la base de datos usando el metodo executemany()
-try:
+"""try:
     with conexion:
         with conexion.cursor() as cursor:
             consulta = " UPDATE persona SET nombre =%s, apellido=%s, email=%s, lenguaje_preferido=%s WHERE id_persona=%s   "
@@ -72,6 +72,23 @@ try:
             cursor.executemany(consulta, valores)
             registrosModificados = cursor.rowcount
             print(f'RegistrosActualizados: {registrosModificados}')
+except Exception as e:
+    print(f'Ocurrio un error {e}')
+finally:
+    cursor.close()
+"""
+
+
+#Eliminando registro usando el metodo execute()
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            consulta = "DELETE FROM persona WHERE id_persona=%s "
+            entrada = input('Proporciona un id persona: ')
+            valores = (entrada,)
+            cursor.execute(consulta, valores)
+            registrosElimandos = cursor.rowcount
+            print(f'Registros eliminados: {registrosElimandos}')
 except Exception as e:
     print(f'Ocurrio un error {e}')
 finally:
