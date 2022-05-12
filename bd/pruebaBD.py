@@ -80,12 +80,27 @@ finally:
 
 
 #Eliminando registro usando el metodo execute()
-try:
+"""try:
     with conexion:
         with conexion.cursor() as cursor:
             consulta = "DELETE FROM persona WHERE id_persona=%s "
             entrada = input('Proporciona un id persona: ')
             valores = (entrada,)
+            cursor.execute(consulta, valores)
+            registrosElimandos = cursor.rowcount
+            print(f'Registros eliminados: {registrosElimandos}')
+except Exception as e:
+    print(f'Ocurrio un error {e}')
+finally:
+    cursor.close()
+"""
+#Eliminando varios registros
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            consulta = "DELETE FROM persona WHERE id_persona IN %s "
+            entrada = input('Proporciona los id persona (separados por coma): ')
+            valores = (tuple(entrada.split(',')),)
             cursor.execute(consulta, valores)
             registrosElimandos = cursor.rowcount
             print(f'Registros eliminados: {registrosElimandos}')
