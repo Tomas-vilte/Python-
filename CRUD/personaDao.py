@@ -1,4 +1,5 @@
-from persona import persona
+from loggerBase import log
+from persona import Persona
 from conexion import conexion
 
 
@@ -10,5 +11,38 @@ class personaDAO:
 
     @classmethod
     def seleccionar(cls):
-        cursor = conexion.obtenerCursor()
-        cursor.execute(cls._SELECIONAR)
+        with conexion.obtenerCursor() as cursor:
+            cursor.execute(cls._SELECIONAR)
+            registroRecuperados = cursor.fetchall()
+            personas = []
+            for registro in registroRecuperados:
+                print(f'Registros recuperados: {registroRecuperados}')
+                persona = Persona(registro[0], registro[1], registro[2], registro[3])
+                personas.append(persona)
+            return personas
+
+
+    
+    @classmethod
+    def insertar(cls, persona):
+        with conexion.obtenerConexion() as conexion:
+            with conexion.obtenerCursor() as cursor:
+                valores = (persona.nombre, persona.apellido, persona.email)
+                cursor.execute(cls._INSERTAR, valores)
+                log.debug(f'Persona a insertar: {persona}')
+                return cursor.rowcount
+
+
+
+
+
+
+if __name__ == '__main__':
+    #Insertar un registro
+    persona1 = Persona(nombre='Ali', apellido='Vilte', email='Alivilte@gmail.com')
+    personasInsertadas = personaDAO.insertar(persona1)
+    log.debug(f'Personas insertadas: {personasInsertadas}')
+    
+    personas = personaDAO.seleccionar()
+    for persona in personas:
+        log.debug(persona)

@@ -1,6 +1,6 @@
 from loggerBase import log
 
-class persona:
+class Persona:
 
     def __init__(self, idPersona=None, nombre=None, apellido=None, email=None):
         
@@ -48,11 +48,11 @@ class persona:
         self._email = email
 
 if __name__ == '__main__':
-    persona1 = persona(1, 'Joan', 'Herrera', 'Joanherrera@gmail.com')
+    persona1 = Persona(1, 'Joan', 'Herrera', 'Joanherrera@gmail.com')
     log.debug(persona1)
     # Simular un insert 
-    persona1 = persona(nombre='Alexis', apellido='Vilte', email='Alexisvilte@gmail.com')
+    persona1 = Persona(nombre='Alexis', apellido='Vilte', email='Alexisvilte@gmail.com')
     log.debug(persona1)
     # Simular un delete
-    persona1 = persona(idPersona=1)
+    persona1 = Persona(idPersona=1)
     log.debug(persona1)
