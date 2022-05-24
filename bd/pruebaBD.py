@@ -1,6 +1,6 @@
 import psycopg2
 
-conexion = psycopg2.connect(user ='postgres', password ='admin', host ='localhost', port ='5432', database ='test_db')
+conexion = psycopg2.connect(user ='postgres', password ='postgres', host ='localhost', port ='5432', database ='CRUD')
 
 #Haciendo consulta "SELECT" y mostrando los registros en la terminal
 """try:
@@ -42,11 +42,11 @@ finally:
 
 """
 #Actualizando registro de la base de datos (UPDATE) usando el metodo execute()
-"""try:
+try:
     with conexion:
         with conexion.cursor() as cursor:
             consulta = " UPDATE persona SET nombre =%s, apellido=%s, email=%s, lenguaje_preferido=%s WHERE id_persona=%s   "
-            valores = ('Juan carlos', 'Juarez', 'Juanjuarez@gmail.com', '.NET', 16)
+            valores = ('Lucas', 'Del balle', 'lucaldeballe1@gmail.com', '.NET', 4)
             cursor.execute(consulta, valores)
             registrosModificados = cursor.rowcount
             print(f'RegistrosActualizados: {registrosModificados}')
@@ -55,7 +55,7 @@ except Exception as e:
 finally:
     cursor.close()
 
-"""
+
 
 
 #Actualizando varios registros de la base de datos usando el metodo executemany()
