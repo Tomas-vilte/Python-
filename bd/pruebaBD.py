@@ -1,6 +1,6 @@
 import psycopg2
 
-conexion = psycopg2.connect(user ='postgres', password ='postgres', host ='localhost', port ='5432', database ='CRUD')
+conexion = psycopg2.connect(user ='postgres', password ='postgres', host ='localhost', port ='5432', database ='postgres')
 
 #Haciendo consulta "SELECT" y mostrando los registros en la terminal
 """try:

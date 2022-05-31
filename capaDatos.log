@@ -1,0 +1,186 @@
+10:40:44 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+10:41:21 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dbPort"
+
+10:41:40 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+10:41:51 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+10:43:09 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+10:43:13 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:02:50 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "DataBase"
+
+11:02:51 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "DataBase"
+
+11:02:56 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:03:24 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBases"
+
+11:03:30 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_dataBases'
+11:03:34 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:03:43 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:03:48 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_database'
+11:06:08 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:06:12 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:08:55 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dbase"
+
+11:09:01 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_dataBase'
+11:09:47 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "userName"
+
+11:10:14 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:10:55 AM: ERROR [conexion.py:31] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:11:05 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:11:10 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:12:25 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:14:10 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_dataBase'
+11:14:25 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:14:32 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "DATABASE"
+
+11:15:02 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:15:16 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:15:17 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:15:17 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:15:18 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dataBase"
+
+11:16:15 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "userName"
+
+11:16:15 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "userName"
+
+11:16:15 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "userName"
+
+11:18:09 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "userName"
+
+11:18:19 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "username"
+
+11:18:21 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "username"
+
+11:18:26 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_userName'
+11:18:30 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "username"
+
+11:18:34 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "username"
+
+11:18:42 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "dbPort"
+
+11:18:56 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5598452340>
+11:18:56 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f55971c6c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:18:56 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f559714a3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:18:56 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f559714a500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:18:56 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f559714a630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:18:56 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f559714a760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:15 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_username'
+11:19:25 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_dataBase'
+11:19:31 AM: ERROR [conexion.py:30] Ocurrio un error al obtener el pool: type object 'Conexion' has no attribute '_dataBase'
+11:19:40 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5118486340>
+11:19:40 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f51171fac20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:40 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f511717e3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:40 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f511717e500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:40 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f511717e630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:40 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f511717e760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:53 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fb1cfee6340>
+11:19:53 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fb1cec5ac20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:53 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fb1cebde3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:53 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fb1cebde500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:53 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fb1cebde630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:19:53 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fb1cebde760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fdb175bf340>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb16333c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb162b73d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb162b7500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb162b7630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb162b7760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:39 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7fdb162b7890; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:52 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f44f47a6340>
+11:25:52 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f44f351ac20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:52 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f44f349e3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:52 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f44f349e500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:52 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f44f349e630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:25:52 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f44f349e760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:26:18 AM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f0b97a58340>
+11:26:18 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f0b967ccc20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:26:18 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f0b967503d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:26:18 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f0b96750500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:26:18 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f0b96750630; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+11:26:18 AM: DEBUG [conexion.py:42] Conexion obtenida de pool <connection object at 0x7f0b96750760; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fd7beadfa60>
+12:29:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fd7bd8e9c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7fd7bd8e9c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fd7bd8e9c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fd7bd86d3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7fd7bd86d3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fd7bd86d3d0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fd7bd86d500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:29:17 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7fd7bd86d500; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:08:17 PM: DEBUG [cursorDelPool.py:11] inicio del metodo with __enter__
+09:08:17 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f7def699340>
+09:08:17 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f7dee3802a0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:08:17 PM: DEBUG [cursorDelPool.py:29] Dentro del bloque with
+09:08:17 PM: DEBUG [cursorDelPool.py:31] [(2, 'Joan', 'Herrera', 'Joanherrera@gmai.com'), (4, 'pedro', 'perez', 'pedroperez@gmai.com'), (5, 'Ali', 'Vilte', 'Alivilte@gmail.com'), (3, 'Alexis', 'Vilte', 'Alexisvilte@gmail.com')]
+09:08:17 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+09:08:17 PM: DEBUG [cursorDelPool.py:23] Commit de la transaccion
+09:08:17 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7f7dee3802a0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:19:06 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f8bd7ae7040>
+09:19:06 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f8bd6a66e80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:23:15 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fe8f7a3e040>
+09:23:15 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fe8f69bde80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:23:56 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5a78dbf040>
+09:23:56 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f5a77d3ee80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:25:32 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f6ea0fc3040>
+09:25:32 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f6e9ff42e80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:25:50 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fdfa273d040>
+09:25:50 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7fdfa16bce80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:26:46 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5102480040>
+09:26:46 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f51013ffe80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:28:24 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f7c394a8040>
+09:28:33 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f1ea0671040>
+09:28:33 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f1e9f5f0e80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:28:44 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f76bd0e9040>
+09:28:50 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5ecf46a040>
+09:28:50 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f5ece3e9e80; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:32:14 PM: DEBUG [cursorDelPool.py:11] inicio del metodo with __enter__
+09:32:14 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f967ac24d60>
+09:32:14 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f967ace1040; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:32:14 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+09:32:14 PM: DEBUG [cursorDelPool.py:23] Commit de la transaccion
+09:32:14 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7f967ace1040; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+09:32:14 PM: DEBUG [personaDao.py:75] 
+        ID: 2, Nombre: Joan, 
+        Apellido: Herrera, Correo: Joanherrera@gmai.com
+        
+12:10:39 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f7858cd5dc0>
+12:10:39 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f7858d58c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:12:25 PM: DEBUG [cursorDelPool.py:11] inicio del metodo with __enter__
+12:12:25 PM: DEBUG [conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f1f739f6e50>
+12:12:25 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f1f73a79c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:12:25 PM: DEBUG [personaDao.py:32] Persona a insertar: 
+        ID: None, Nombre: Belen, 
+        Apellido: Vilte, Correo: Belenvilte@gmail.com
+        
+12:12:25 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+12:12:25 PM: DEBUG [cursorDelPool.py:23] Commit de la transaccion
+12:12:25 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7f1f73a79c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:12:25 PM: DEBUG [personaDao.py:59] Personas insertadas: 1
+12:12:25 PM: DEBUG [cursorDelPool.py:11] inicio del metodo with __enter__
+12:12:25 PM: DEBUG [conexion.py:38] Conexion obtenida de pool <connection object at 0x7f1f73a79c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:12:25 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+12:12:25 PM: DEBUG [cursorDelPool.py:23] Commit de la transaccion
+12:12:25 PM: DEBUG [conexion.py:44] Regresamos la conexion al pool: <connection object at 0x7f1f73a79c20; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+12:12:25 PM: DEBUG [personaDao.py:74] 
+        ID: 2, Nombre: Joan, 
+        Apellido: Herrera, Correo: Joanherrera@gmai.com
+        

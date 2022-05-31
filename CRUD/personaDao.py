@@ -1,3 +1,4 @@
+from cursorDelPool import cursorDelPool
 from loggerBase import log
 from persona import Persona
 from conexion import Conexion
@@ -11,65 +12,61 @@ class personaDAO:
 
     @classmethod
     def seleccionar(cls):
-        with Conexion.obtenerConexion() as conexion:
-            with conexion.cursor() as cursor:
-                cursor.execute(cls._SELECIONAR)
-                registroRecuperados = cursor.fetchall()
-                personas = []
-                for registro in registroRecuperados:
-                    print(f'Registros recuperados: {registroRecuperados}')
-                    persona = Persona(registro[0], registro[1], registro[2], registro[3])
-                    personas.append(persona)
+        with cursorDelPool() as cursor:
+            cursor.execute(cls._SELECIONAR)
+            registroRecuperados = cursor.fetchall()
+            personas = []
+            for registro in registroRecuperados:
+                print(f'Registros recuperados: {registroRecuperados}')
+                persona = Persona(registro[0], registro[1], registro[2], registro[3])
+                personas.append(persona)
                 return personas
 
 
     
     @classmethod
     def insertar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email)
-                cursor.execute(cls._INSERTAR, valores)
-                log.debug(f'Persona a insertar: {persona}')
-                return cursor.rowcount
+        with cursorDelPool() as cursor:
+            valores = (persona.nombre, persona.apellido, persona.email)
+            cursor.execute(cls._INSERTAR, valores)
+            log.debug(f'Persona a insertar: {persona}')
+            return cursor.rowcount
 
 
     @classmethod
     def actualizar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email, persona.idPersona)
-                cursor.execute(cls._ACTUALIZAR, valores)
-                log.debug(f'Registro actualizado {persona}')
-                return cursor.rowcount
+        with cursorDelPool() as cursor:
+            valores = (persona.nombre, persona.apellido, persona.email, persona.idPersona)
+            cursor.execute(cls._ACTUALIZAR, valores)
+            log.debug(f'Registro actualizado {persona}')
+            return cursor.rowcount
 
     @classmethod
     def eliminar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.idPersona,)
-                cursor.execute(cls._ELIMINAR, valores)
-                log.debug(f'Registro eliminado: {persona}')
-                return cursor.rowcount
+        with cursorDelPool() as cursor:
+            valores = (persona.idPersona,)
+            cursor.execute(cls._ELIMINAR, valores)
+            log.debug(f'Registro eliminado: {persona}')
+            return cursor.rowcount
 
 
 if __name__ == '__main__':
     #Insertar un registro
-    persona1 = Persona(nombre='Ali', apellido='Vilte', email='Alivilte@gmail.com')
+    persona1 = Persona(nombre='Belen', apellido='Vilte', email='Belenvilte@gmail.com')
     personasInsertadas = personaDAO.insertar(persona1)
     log.debug(f'Personas insertadas: {personasInsertadas}')
     
     #Actualizar un registro
-    persona2 = Persona(3, 'Alexis', 'Vilte', 'Alexisvilte@gmail.com')
-    personaActualizada = personaDAO.actualizar(persona2)
-    log.debug(f'Personas actualizadas: {personaActualizada}')
+    #persona2 = Persona(4, 'Belen', 'Vilte', 'Belenvilte@gmail.com')
+    #personaActualizada = personaDAO.actualizar(persona2)
+    #log.debug(f'Personas actualizadas: {personaActualizada}')
 
     #Eliminar un registro
-    persona3 = Persona(idPersona=6)
-    personaEliminada = personaDAO.eliminar(persona3)
-    log.debug(f'Registro eliminado: {personaEliminada}')
+    #persona3 = Persona(idPersona=4)
+    #personaEliminada = personaDAO.eliminar(persona3)
+    #log.debug(f'Registro eliminado: {personaEliminada}')
 
     #Seleccionar 
-    personas = personaDAO.seleccionar()
-    for persona in personas:
-        log.debug(persona)
+    #personas = personaDAO.seleccionar()
+    #for persona in personas:
+        #log.debug(persona)
