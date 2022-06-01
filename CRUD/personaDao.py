@@ -1,7 +1,6 @@
 from cursorDelPool import cursorDelPool
 from loggerBase import log
 from persona import Persona
-from conexion import Conexion
 
 
 class personaDAO:
@@ -51,22 +50,23 @@ class personaDAO:
 
 
 if __name__ == '__main__':
+    
     #Insertar un registro
     persona1 = Persona(nombre='Belen', apellido='Vilte', email='Belenvilte@gmail.com')
     personasInsertadas = personaDAO.insertar(persona1)
     log.debug(f'Personas insertadas: {personasInsertadas}')
     
     #Actualizar un registro
-    #persona2 = Persona(4, 'Belen', 'Vilte', 'Belenvilte@gmail.com')
-    #personaActualizada = personaDAO.actualizar(persona2)
-    #log.debug(f'Personas actualizadas: {personaActualizada}')
+    persona2 = Persona(4, 'Belen', 'Vilte', 'Belenvilte@gmail.com')
+    personaActualizada = personaDAO.actualizar(persona2)
+    log.debug(f'Personas actualizadas: {personaActualizada}')
 
     #Eliminar un registro
-    #persona3 = Persona(idPersona=4)
-    #personaEliminada = personaDAO.eliminar(persona3)
-    #log.debug(f'Registro eliminado: {personaEliminada}')
+    persona3 = Persona(idPersona=4)
+    personaEliminada = personaDAO.eliminar(persona3)
+    log.debug(f'Registro eliminado: {personaEliminada}')
 
     #Seleccionar 
-    #personas = personaDAO.seleccionar()
-    #for persona in personas:
-        #log.debug(persona)
+    personas = personaDAO.seleccionar()
+    for persona in personas:
+        log.debug(persona)
