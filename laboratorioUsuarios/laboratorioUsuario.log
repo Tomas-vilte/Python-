@@ -1,0 +1,8 @@
+08:26:01:PM: INFO [menuAppUsuario.py:21] ID:1, Username:Joan herrera, Password:12345 
+08:26:23:PM: INFO [menuAppUsuario.py:27] Usuarios insertados: 1 
+08:26:28:PM: INFO [menuAppUsuario.py:21] ID:1, Username:Joan herrera, Password:12345 
+08:50:34:PM: INFO [menuAppUsuario.py:34] Usuario actualizado: 1 
+08:52:04:PM: INFO [menuAppUsuario.py:39] Usuario eliminado: 1 
+08:52:16:PM: INFO [menuAppUsuario.py:41] Salimos de la aplicacion 
+08:53:47:PM: INFO [menuAppUsuario.py:39] Usuario eliminado: 1 
+08:55:56:PM: INFO [menuAppUsuario.py:41] Salimos de la aplicacion 
