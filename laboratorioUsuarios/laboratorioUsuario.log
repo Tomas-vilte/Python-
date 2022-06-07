@@ -6,3 +6,6 @@
 08:52:16:PM: INFO [menuAppUsuario.py:41] Salimos de la aplicacion 
 08:53:47:PM: INFO [menuAppUsuario.py:39] Usuario eliminado: 1 
 08:55:56:PM: INFO [menuAppUsuario.py:41] Salimos de la aplicacion 
+09:09:36:PM: INFO [menuAppUsuario.py:27] Usuarios insertados: 1 
+09:09:42:PM: INFO [menuAppUsuario.py:21] ID:4, Username:Joan Herrera, Password:JH097 
+09:09:45:PM: INFO [menuAppUsuario.py:41] Salimos de la aplicacion 

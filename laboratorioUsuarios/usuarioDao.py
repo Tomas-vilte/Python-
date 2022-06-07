@@ -63,6 +63,6 @@ if __name__ == '__main__':
     #log.debug(f'Usuario actualizado: {usuariosActualizados}')
 
     #Eliminar
-    usuario3 = Usuario(id_usuario=2)
-    usuarioEliminado = usuarioDao.eliminar(usuario3)
-    log.debug(f'Usuario eliminado: {usuarioEliminado}')
+    #usuario3 = Usuario(id_usuario=2)
+    #usuarioEliminado = usuarioDao.eliminar(usuario3)
+    #log.debug(f'Usuario eliminado: {usuarioEliminado}')
