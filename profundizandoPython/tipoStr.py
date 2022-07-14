@@ -125,3 +125,28 @@ print('Simbolo @:', caracter)
 
 caracter = chr(97)
 print('a minuscula:', caracter)
+
+# Caracteres bytes
+
+caracteresEnBytes = b'Hola Mundo'
+print(caracteresEnBytes)
+
+mensaje = b'Universidad de python'
+print(mensaje[0])
+print(chr(mensaje[0]))
+
+listaCaracteres = mensaje.split()
+print(listaCaracteres)
+
+# Convertir str a bytes
+
+string = 'Programación con python'
+print('String original:', string)
+bytes = string.encode('UTF-8')
+print('Bytes codificados:', bytes)
+
+# Convertir bytes a str
+
+string2 = bytes.decode('UTF-8')
+print('string decodifcado:', string2)
+print(string == string2)
