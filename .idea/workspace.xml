@@ -2,30 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2bebc7f-e920-47c3-908d-48a9900f18e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/analisisDeDatos/conexion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analisisDeDatos/leerCSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analisisDeDatos/numpi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/alcanceVariables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/alcanceVariables2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/diccionarios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/ejercicioVariablesGlobales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/funcionZip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/funcionesAnidadas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/funcionesLambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/leerContenidoOnline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/nuevoArchivo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/operadorUnpacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/persona.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/tipoNone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/tuplas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/unpacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profundizandoPython/usosDeFunciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/acceso_atributos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/atributos_clase_objetos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/convertidor_c_f.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/data_clases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/decoradores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/decoradores_clase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/expresionGeneradora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/funcionClosure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/generadores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/generadores2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/generadoresEjemplo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/herencia_multiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/herencia_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/inicializacion_objetos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/json_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/keywords1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/listaDeCompresion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/mro_ejemplo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/representacion_objetos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profundizandoPython/sobrecarga_constructores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratorioUsuarios/laboratorioUsuario.log" beforeDir="false" afterPath="$PROJECT_DIR$/laboratorioUsuarios/laboratorioUsuario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profundizandoPython/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/profundizandoPython/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profundizandoPython/tipoStr.py" beforeDir="false" afterPath="$PROJECT_DIR$/profundizandoPython/tipoStr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profundizandoPython/funcionesLambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/profundizandoPython/funcionesLambda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/profundizandoPython/decoradores_clase.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,50 +68,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.numpi">
-    <configuration name="conexion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analisisDeDatos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analisisDeDatos/conexion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="consultas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analisisDeDatos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analisisDeDatos/consultas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kkk]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.json_python">
+    <configuration name="data_clases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/kkk].py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/data_clases.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leerCSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decoradores_clase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analisisDeDatos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profundizandoPython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analisisDeDatos/leerCSV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/decoradores_clase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numpi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="herencia_multiple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +119,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analisisDeDatos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profundizandoPython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analisisDeDatos/numpi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/herencia_multiple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profundizandoPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/json_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mro_ejemplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/profundizandoPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profundizandoPython/mro_ejemplo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.numpi" />
-        <item itemvalue="Python.leerCSV" />
-        <item itemvalue="Python.conexion" />
-        <item itemvalue="Python.consultas" />
-        <item itemvalue="Python.kkk]" />
+        <item itemvalue="Python.json_python" />
+        <item itemvalue="Python.data_clases" />
+        <item itemvalue="Python.decoradores_clase" />
+        <item itemvalue="Python.herencia_multiple" />
+        <item itemvalue="Python.mro_ejemplo" />
       </list>
     </recent_temporary>
   </component>
